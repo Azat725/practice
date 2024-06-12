@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.button {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 107);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background-color: rgb(255, 68, 0);
+    border: 1px solid rgb(255, 68, 0);
+    color: #fff;
+}
+
+.button-left {
+    background-color: #fff;
+}
+
+.button-right {
+    background-color: #fff;
+}
+
+.button-number {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}

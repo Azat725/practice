@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Обратная связь</h2>
+        <form>
+            <label for="subject">Тема обращения:</label>
+            <select id="subject">
+                <option value="вопрос">Вопрос</option>
+                <option value="предложение">Предложение</option>
+                <option value="жалоба">Жалоба</option>
+            </select>
+
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите ваше имя">
+        
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите ваш email">
+        
+            <label for="message">Сообщение:</label>
+            <textarea id="message" placeholder="Напишите ваше сообщение"></textarea>
+        
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
